@@ -400,9 +400,13 @@
 .card-text{
     line-height: 170%;
 }
-.card-title {
+.card-title a {
     font-family: "Arial Black";
-    color: black;
+    color: rgb(51, 50, 50);
+}
+.card-title a:hover{
+    color: #ff5a3c;
+    text-decoration: none;
 }
 .row-card{
     margin: 0 auto!important;
