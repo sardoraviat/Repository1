@@ -424,3 +424,18 @@
     background-color: orangered;
     
 }
+.apartment_ul{
+    list-style-type: none;
+    
+}
+.apartment_ul li{
+    display: inline;
+    margin: 0 18px;
+
+}
+.apartment_ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+}
