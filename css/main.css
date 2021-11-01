@@ -387,6 +387,7 @@
 }
 .card-container{
     background-color: #e2e6f3;
+    height: 600px;
 }
 .card-find{
     width: 330px;
@@ -411,6 +412,15 @@
 .row-card{
     margin: 0 auto!important;
 }
-.img-card{
-
+.card_slider{
+    text-align: center;
+    
+}
+.card_slider img{
+    width: 100%;
+}
+.slider{
+    border: 1px solid grey;
+    background-color: orangered;
+    
 }
