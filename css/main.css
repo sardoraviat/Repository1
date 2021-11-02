@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box!important;
     font-family: sans-serif,Verdana;
 }
 .header{
@@ -205,7 +205,7 @@
 .home-design{
     margin-top: 100px;
     text-align: center;
-    padding-left: 15%;
+    padding-left: 10%;
 }
 .about-us{
     padding-left: 22px;
@@ -221,7 +221,7 @@
     margin: 3px auto;
 }
 .heading-title h1{
-    font-size: 42px;
+    font-size: 37px;
     font-weight: 700;
     line-height: 0.8;
 }
@@ -438,4 +438,56 @@
     font-size: 20px;
     font-family: sans-serif;
     color: black;
+    border-bottom: 2px solid transparent;
+}
+.apartment_ul li a:hover {
+    color: #ff5a3c;
+    border-color: #ff5a3c;
+    background-color: transparent;
+}
+
+.apartment_ul li a:focus {
+    color: #ff5a3c;
+    border-color: #ff5a3c;
+    background-color: transparent;
+}
+
+.apartment_ul li a:active {
+    color: #ff5a3c;
+    border-color: #ff5a3c;
+    background-color: transparent;
+}
+.tab_one_img img{
+    width: 500px;
+    
+}
+.tab_one_left{
+    background-color: #ff5a3c;
+    color: white;
+    width: 470px;
+}
+.tab_title{
+    font-size: 25px!important;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family:monospace!important;
+}
+.tab_one_left_p p{
+    font-size: 15px;
+    line-height: 1.5rem;
+    margin: 0 30px;
+    font-family: -webkit-pictograph;
+    
+}
+
+.tab_one_left_p_p p{
+    font-family: -webkit-pictograph;
+    font-size: 15px;
+    line-height: 1rem;
+   
+    
+}
+.tab_one_left_p_p{
+    padding: 20px 38px 43px 38px;
+   
 }
