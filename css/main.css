@@ -384,6 +384,7 @@
 }
 .focus{
     font-family: "Arial Black";
+    font-size: xx-large;
 }
 .card-container{
     background-color: #e2e6f3;
@@ -498,6 +499,8 @@
     
 }
 .bg-image {
+    
+    padding-top: 70px;
     background-image: url(../images/19.jpg);
     height: 100%; 
     width: 100%;
@@ -510,6 +513,7 @@
     
   }
   .bg-image-a{
+      
       margin: 0 auto;  
       width: 50px;
       height: 50px;
@@ -552,7 +556,28 @@
     }
   }
 
+.our-aminities{
+    margin: 15px auto;
+    text-align: center;
 
+}
+.card-building{
+    background-color: orangered;
+    height: 180px;
+    border: 1px solid orangered;
+    border-radius: 15px;
+    
+
+}
+.card-building-icon{
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: orangered;
+   
+
+}
 
 
   
