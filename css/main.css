@@ -562,15 +562,28 @@
 
 }
 .card-building{
-    background-color: orangered;
+    background-color: white;
     height: 180px;
-    border: 1px solid orangered;
-    border-radius: 15px;
+    /* border: 1px solid #cccaca; */
+    border-radius: 10px;
+    margin: 0!important;
+    padding: 0!important;
+    box-shadow: 1px 3px 9px #cccaca;
     
+   
+}
 
+    
+   
+
+.card-building a:hover{
+    color: white!important;
+    background-color: orangered;
+    text-decoration: none;
+    border-radius: 10px;
 }
 .card-building-icon{
-    width: 80px;
+    width: 100px;
     height: 80px;
     border: 1px solid white;
     border-radius: 50%;
@@ -578,6 +591,27 @@
    
 
 }
-
-
-  
+.card-building a{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    
+    
+    
+}
+.category-icon{
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+    border-radius: 100%;
+    background-color: #fcf2f1;
+    margin: 20px auto;
+    font-size: 45px;
+    color: orangered;
+    
+}
+ .category-title{
+     font-size: 18px;
+     font-weight: bold;
+     color: black;
+ }
