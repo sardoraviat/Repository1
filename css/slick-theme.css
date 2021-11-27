@@ -36,10 +36,10 @@
 
     cursor: pointer;
 
-    color: transparent;
+    color: orangered;
     border: none;
     outline: none;
-    background: transparent;
+    background: black;
 }
 .slick-prev:hover,
 .slick-prev:focus,
