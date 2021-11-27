@@ -415,6 +415,8 @@
 }
 .card_slider{
     text-align: center;
+    width: 270px;
+    border: 1px solid red;
     
 }
 .card_slider img{
@@ -572,7 +574,9 @@
     
    
 }
-
+.mt-10{
+    margin-top: 150px;
+}
     
    
 
