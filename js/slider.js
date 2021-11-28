@@ -1,6 +1,6 @@
 $('.card_slide_carousel').slick({
-  slidesToShow: 4,
-  slidesToScroll: 2,
+  slidesToShow: 3,
+  slidesToScroll: 1,
   sped:300,
   autoplay: true,
   autoplaySpeed: 4000,

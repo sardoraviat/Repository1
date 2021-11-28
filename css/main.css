@@ -415,8 +415,14 @@
 }
 .card_slider{
     text-align: center;
-    width: 270px;
+    width: 350px;
+    height:330px;
     border: 1px solid red;
+    
+}
+.zoom:hover{
+    transform: scale(1.1);
+    transition: all 3.5s ease 0s;
     
 }
 .card_slider img{
