@@ -3,7 +3,7 @@ $('.card_slide_carousel').slick({
   slidesToScroll: 1,
   sped:300,
   autoplay: true,
-  autoplaySpeed: 4000,
+  autoplaySpeed: 2500,
   
 });
 				

@@ -413,18 +413,50 @@
 .row-card{
     margin: 0 auto!important;
 }
+.zoom{
+    width:400px;
+    height: 600px;
+    margin: 0px;
+    padding: 0;
+    
+}
 .card_slider{
-    text-align: center;
-    width: 350px;
+    width: 370px;
     height:330px;
-    border: 1px solid red;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+	cursor: pointer;
     
 }
-.zoom:hover{
+.bg-one{background-image: url("../images/1.jpg");}
+.bg-two{background-image: url("../images/2.jpg");}
+.bg-three{background-image: url("../images/3.jpg");}
+.bg-four{background-image: url("../images/4.jpg");}
+.bg-five{background-image: url("../images/5.jpg");}
+
+.child{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+
+
+.card_slider:hover .child, .card_slider:focus .child {
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
     transform: scale(1.1);
-    transition: all 3.5s ease 0s;
-    
-}
+} 
+
+
 .card_slider img{
     width: 100%;
 }
@@ -433,6 +465,50 @@
     background-color: orangered;
     
 }
+.title-house{
+    padding: 15px 10px 5px 20px;
+    margin: 0;
+    box-sizing: border-box;
+}
+.price_color{
+    color: orangered;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    
+}
+.bold{
+   
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.title-ul-ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+.title-ul-li{
+    margin-right: 15px;
+    padding: 10px 7px 3px 7px;
+    opacity: 0.7;
+}
+
+.title-ul-li::after{
+    position: absolute;
+    content: "";
+    margin-left: 10px;
+    width: 1px;
+    height: 45px;
+    top: 84%;
+    background-color: #888585;
+
+}
+
+
 .apartment_ul{
     list-style-type: none;
     
