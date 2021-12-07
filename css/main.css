@@ -481,9 +481,15 @@
    
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     font-family: sans-serif;
+    text-transform: uppercase;
+}
+.bold:hover{
+    text-decoration: none;
+    color: orangered;
+    transition: all 0.5s;
 }
 
 .title-ul-ul {
@@ -726,4 +732,9 @@
     border: none;
     outline: none;
     background: black;
+}
+.footer{
+    height: 400px;
+    background-color: #171B2A;
+    color: white;
 }
