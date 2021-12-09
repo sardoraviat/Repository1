@@ -738,3 +738,10 @@
     background-color: #171B2A;
     color: white;
 }
+.footer ul{
+    width: 200px;
+    list-style: none;
+}
+.footer ul li{
+    line-height: 35px;
+}
