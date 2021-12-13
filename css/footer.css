@@ -37,4 +37,20 @@
   visibility: visible;
   margin-left: 0;
 }
+
+.email p {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.email span {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.email div {
+  width: 200px;
+  height: 60px;
+  background-color: white;
+}
 /*# sourceMappingURL=footer.css.map */
