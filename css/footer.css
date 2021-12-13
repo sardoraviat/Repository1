@@ -40,7 +40,7 @@
 
 .email p {
   font-size: 25px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .email span {
@@ -49,8 +49,103 @@
 }
 
 .email div {
-  width: 200px;
-  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 25px;
+  width: 300px;
+  height: 45px;
   background-color: white;
+  position: relative;
+}
+
+.email div div {
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  background-color: orangered;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.email div div a {
+  text-decoration: none;
+}
+
+.email div div a i {
+  color: white;
+}
+
+.add-email {
+  width: 85%;
+}
+
+.add-email:focus {
+  border: 1px solid orangered;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.payment {
+  width: 300px;
+  height: 30px;
+}
+
+.payment img {
+  width: 20%;
+  height: 100%;
+}
+
+.payment .pay-type {
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+
+.payment .bg-uzkard {
+  margin: 0;
+  padding: 0;
+  background-image: url(..//images/uzkard.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.payment .bg-humo {
+  margin: 0;
+  padding: 0;
+  background-image: url(..//images/humo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.payment .bg-visa {
+  margin: 0;
+  padding: 0;
+  background-image: url(..//images/visa.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.payment .bg-master {
+  margin: 0;
+  padding: 0;
+  background-image: url(..//images/mastercard.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.payment .bg-qiwi {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  background-image: url(..//images/qiwi.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 /*# sourceMappingURL=footer.css.map */

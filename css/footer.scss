@@ -33,17 +33,113 @@
     }
 }
 .email{
+    
     p{
         font-size: 25px;
-        font-weight: 800;
+        font-weight: 700;
     }
     span{
         font-size: 18px;
         font-weight: 400;
     }
     div{
-        width: 200px;
-        height: 60px;
+        display: flex;
+        margin-top: 25px;
+        width: 300px;
+        height: 45px;
         background-color: white;
+        position: relative;
+
+               
+        div{
+            margin: 0;
+            padding: 0;
+            width: 15%;
+            height: 100%;
+            position: absolute;
+            right: 0;
+            background-color: orangered;
+            align-items: center;
+            padding-left: 14px;
+            padding-right: 14px;
+
+            a{
+                text-decoration: none;
+
+                i{
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.add-email{
+
+    width: 85%;
+    
+    &:focus{
+        border: 1px solid orangered;
+        box-shadow: none;
+
+        
+    }
+
+}
+.payment{
+    width: 300px;
+    height: 30px;
+    
+
+    img{
+        width: 20%;
+        height: 100%;
+    }
+
+    .pay-type{
+        width: 20%;
+        height: 100%;
+        float: left;
+        
+    }
+    .bg-uzkard{
+        margin: 0;
+        padding: 0;
+        
+        background-image: url(..//images/uzkard.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .bg-humo{
+        margin: 0;
+        padding: 0;
+       
+        background-image: url(..//images/humo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .bg-visa{
+        margin: 0;
+        padding: 0;
+        
+        background-image: url(..//images/visa.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .bg-master{
+        margin: 0;
+        padding: 0;
+        
+        background-image: url(..//images/mastercard.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .bg-qiwi{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        background-image: url(..//images/qiwi.png);
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 }
