@@ -1,0 +1,34 @@
+/* footer-menu */
+.footer-menu ul {
+    margin: 0;
+    padding: 0;
+    li {
+            position: relative;
+        a {
+            position: relative;
+            &::before {
+                position: absolute;
+                content: "//";
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                transition: inherit;
+                opacity: 0;
+                visibility: hidden;
+                margin-left: -20px;
+                color: orangered;
+            }
+        }
+        &:hover {
+            a {
+                padding-left: 20px;
+                color: orangered;
+                &::before {
+                    opacity: 1;
+                    visibility: visible;
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}

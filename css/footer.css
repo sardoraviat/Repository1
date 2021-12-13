@@ -1,0 +1,40 @@
+/* footer-menu */
+.footer-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-menu ul li {
+  position: relative;
+}
+
+.footer-menu ul li a {
+  position: relative;
+}
+
+.footer-menu ul li a::before {
+  position: absolute;
+  content: "//";
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: inherit;
+  transition: inherit;
+  opacity: 0;
+  visibility: hidden;
+  margin-left: -20px;
+  color: orangered;
+}
+
+.footer-menu ul li:hover a {
+  padding-left: 20px;
+  color: orangered;
+}
+
+.footer-menu ul li:hover a::before {
+  opacity: 1;
+  visibility: visible;
+  margin-left: 0;
+}
+/*# sourceMappingURL=footer.css.map */
