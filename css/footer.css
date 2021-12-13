@@ -107,45 +107,4 @@
   height: 100%;
   float: left;
 }
-
-.payment .bg-uzkard {
-  margin: 0;
-  padding: 0;
-  background-image: url(..//images/uzkard.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.payment .bg-humo {
-  margin: 0;
-  padding: 0;
-  background-image: url(..//images/humo.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.payment .bg-visa {
-  margin: 0;
-  padding: 0;
-  background-image: url(..//images/visa.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.payment .bg-master {
-  margin: 0;
-  padding: 0;
-  background-image: url(..//images/mastercard.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.payment .bg-qiwi {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  background-image: url(..//images/qiwi.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
 /*# sourceMappingURL=footer.css.map */
