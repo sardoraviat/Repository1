@@ -87,7 +87,8 @@
     display: flex;
 }
 .header-menu-ul li{
-    margin: 5px 15px;
+    margin: 10px 5px;
+    width: 120px;
 }
 .header-menu-ul li a{
     text-decoration: none;
@@ -416,6 +417,11 @@
 .card-title a:hover{
     color: #ff5a3c;
     text-decoration: none;
+}
+.card-body a:hover{
+    text-decoration: none;
+    color: orangered;
+    
 }
 .row-card{
     margin: 0 auto!important;
