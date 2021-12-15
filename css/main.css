@@ -22,6 +22,14 @@
     display: flex;
    padding: 10px 0;
 }
+.mail a{
+    font-size: 13px;
+    font-family: Verdana;
+    text-decoration: none;
+    padding: 0 0 0 10px;
+    color: white;
+}
+
 .mail p{
     font-size: 13px;
     font-family: Verdana;
@@ -29,8 +37,9 @@
     color: white;
 }
 
-.mail p:hover{
+.mail a:hover{
     color: #ff5a3c;
+    text-decoration: none;
 }
 
 .mail i{
@@ -44,6 +53,9 @@
 }
 .list-style li i{
     color: white;
+}
+.list-style li i:hover{
+    color: orangered;
 }
 .btn-top-header{
     background:  #ff5a3c;
@@ -67,6 +79,8 @@
 }
 .font{
     font-family: sans-serif;
+    font-size: larger;
+    
 }
 .header-menu-ul{
     list-style-type: none;
